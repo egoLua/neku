@@ -1,0 +1,67 @@
+{
+  "token"                     : "OTg0MTEwNDI2OTQ4MjQzNDY4.GDrKdd.J_TtKBNKExKv3jSdXyCvffgnTd3X9ovv1iiyKs",
+  "ipc_port"                  : 13337,
+  "db_credentials"            : {
+    "user"    : "Infernus",
+    "password": "Infernus",
+    "database": "Shinobu",
+    "host"    : "127.0.0.1"
+  },
+  "redis_host"                : "redis://localhost",
+  "playing"                   : "n.help",
+  "default_prefix"            : "n.",
+  "default_embed_color"       : "0xfffe91",
+  "log_channel_id"            : 984114979412246618,
+  "daily_amount"              : 250,
+  "base_waifu_price"          : 200,
+  "owner_ids"                 : [
+    806246814121590834
+  ],
+  "cooldowns"                 : {
+    "daily": 43200,
+    "xp"   : 60
+  },
+  "lavalink_nodes_credentials": [
+    {
+      "host"      : "0.0.0.0",
+      "port"      : 80,
+      "rest_uri"  : "http://0.0.0.0:80",
+      "password"  : "Infernus",
+      "identifier": "identifier",
+      "region"    : "europe"
+    }
+  ],
+  "topgg_credentials"         : {
+    "post_guild_count": false,
+    "token"           : "token",
+    "bot_id"          : 0,
+    "webhook_auth"    : "authorization_key",
+    "webhook_port"    : 5000,
+    "webhook_path"    : "/dblwebhook"
+  },
+  "spotify_credentials"       : {
+    "client_id"    : "client_id",
+    "client_secret": "client_secret"
+  },
+  "reddit_credentials"        : {
+    "client_id"    : "client_id",
+    "client_secret": "client_secret"
+  },
+  "blizzard_credentials"      : {
+    "client_id"    : "client_id",
+    "client_secret": "client_secret"
+  },
+  "patreon_credentials"       : {
+    "creator_access_token": "access_token",
+    "campaign_id"         : 0
+  },
+  "danbooru_credentials"      : {
+    "username": "username",
+    "api_key" : "api_key"
+  },
+  "gelbooru_credentials"      : {
+    "user_id": "user_id",
+    "api_key": "api_key"
+  },
+  "currency_api_key"          : "api_key"
+}
